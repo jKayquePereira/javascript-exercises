@@ -1,13 +1,13 @@
 # Exercise 03 - Reverse a String
 
-Pretty simple, write a function called `reverseString` that returns its input, reversed!
+Muito simples, escreva uma função chamada `reverseString`que retorna sua entrada, invertida!
 
 ```javascript
 reverseString('hello there') // returns 'ereht olleh'
 ```
 
-You will notice in this exercise that there are multiple tests (in the file `reverseString.spec.js`). Currently, only the first test is enabled. After ensuring that the first test passes, enable the remaining tests one by one by removing the `.skip` from the `test.skip()` function.
+Você notará neste exercício que existem vários testes (no arquivo `reverseString.spec.js`).Atualmente, apenas o primeiro teste está habilitado. Depois de garantir que o primeiro teste foi aprovado, ative os testes restantes, um por um, removendo o `.skip` da função `test.skip()`.
 
 
-## Hints
-Strings in JavaScript cannot be reversed directly so you're going to have to split it into something else first.. do the reversal and then join it back together into a string.
+## Dicas
+Strings em JavaScript não podem ser revertidas diretamente, então você terá que dividi-las em outra coisa primeiro. Faça a reversão e depois junte-as novamente em uma string.
