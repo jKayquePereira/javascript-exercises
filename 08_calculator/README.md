@@ -1,8 +1,8 @@
 # Exercise 08 - Calculator
 
-The goal for this exercise is to create a calculator that does the following:
+O objetivo deste exercício é criar uma calculadora que faça o seguinte:
 
-add, subtract, get the sum, multiply, get the power, and find the factorial
+somar, subtrair, obter a soma, multiplicar, obter a potência e encontrar o fatorial
 
-In order to do this please fill out each function with your solution. Make sure to return the value so you can test it in Jest! To see the expected value
-take a look at the spec file that houses the Jest test cases.
+Para fazer isso, preencha cada função com sua solução. Certifique-se de retornar o valor para poder testá-lo no Jest! Para ver o valor esperado
+dê uma olhada no arquivo de especificações que contém os casos de teste do Jest.
