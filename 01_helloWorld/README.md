@@ -1,14 +1,14 @@
 # Exercise 01 - Hello World
 
-The main purpose of this exercise is to walk you through the process of running the tests and make sure everything is set up and running correctly.
+O objetivo principal deste exercício é orientar você no processo de execução dos testes e garantir que tudo esteja configurado e funcionando corretamente.
 
-In this directory you will find 2 other files:
+Neste diretório você encontrará outros 2 arquivos:
   1. `helloWorld.js`
   2. `helloWorld.spec.js`
 
-This setup should be the same for all of the exercises.  The plain javascript file is where you'll write your code, and the `spec` file contains the tests that verify your code is functional.
+Esta configuração deve ser a mesma para todos os exercícios.  O arquivo javascript simples é onde você escreverá seu código, e o `spec` contém os testes que verificam se seu código está funcional.
 
-Let's look at the spec file first:
+Vejamos primeiro o arquivo de especificações:
 ```javascript
 const helloWorld = require('./helloWorld');
 
@@ -18,27 +18,26 @@ describe('Hello World', function() {
   });
 });
 ```
-At the very top of the file we use `require()` to import the code from the javascript file (`helloWorld.js`) so that we can test it.
+No topo do arquivo que usamos `require()` para importar o código do arquivo javascript (`helloWorld.js`) para que possamos testá-lo.
 
-The next block (`describe()`) is the body of the test.  Basically, all it's doing is running your code and testing to see if the output is correct.  The `test()` function describes what should be happening in plain english and then includes the `expect()` function.  For this simple example it should be pretty simple to read.
+O próximo bloco (`describe()`) é o corpo do teste.  Basicamente, tudo o que ele faz é executar seu código e testar para ver se a saída está correta.  O `test()` função descreve o que deveria estar acontecendo em inglês simples e depois inclui o `expect()` função.  Para este exemplo simples, deve ser bem simples de ler.
 
-For now you do not need to worry about how to write tests, but you should try to get comfortable enough with the syntax to figure out what the tests are asking you to do.  Go ahead and run the tests by entering `npm test helloWorld.spec.js` in the terminal and watch it fail.  The output from that command should tell you exactly what went wrong with your code.  In this case, running the `helloWorld()` function should return the phrase 'Hello, World!' but instead it returns an empty string...
+Por enquanto você não precisa se preocupar em como escrever testes, mas você deve tentar se sentir confortável o suficiente com a sintaxe para descobrir o que os testes estão pedindo para você fazer.  Vá em frente e execute os testes digitando `npm test helloWorld.spec.js` no terminal e observe-o falhar.  A saída desse comando deve informar exatamente o que deu errado com seu código.  Neste caso, executando o `helloWorld()` função deve retornar a frase 'Hello, World!' mas em vez disso retorna uma string vazia ...
 
-so let's look at the javascript file:
-```javascript
+então vamos dar uma olhada no arquivo javascript:```javascript
 const helloWorld = function() {
   return ''
 }
 
 module.exports = helloWorld
 ```
-In this file we have a simple function called helloWorld that returns an empty string... which is exactly what our test was complaining about.  The `module.exports` on the last line is how we export the function so that it can be imported with `require()` in the spec file.
+Neste arquivo temos uma função simples chamada helloWorld que retorna uma string vazia... que é exatamente o que nosso teste estava reclamando.  O `module.exports` na última linha está como exportamos a função para que ela possa ser importada com `require()` no arquivo de especificações.
 
-Go ahead and see if you can make the test pass by editing the return value of the function, and then running the test file again.
+Vá em frente e veja se você consegue fazer o teste passar editando o valor de retorno da função e executando o arquivo de teste novamente.
 
-Just to make sure, in case you're confused at this point, the test is telling you that running the function `helloWorld` should return the phrase `Hello, World!`.  Punctuation and capitalization definitely matter here, so double check that if the test still isn't passing.
+Só para ter certeza, caso você esteja confuso neste momento, o teste está lhe dizendo que executar a função`helloWorld` deveria retornar a frase`Hello, World!`.  Pontuação e letras maiúsculas definitivamente são importantes aqui, então verifique novamente se o teste ainda não passou.
 
-This is what the final function should look like:
+Esta é a aparência da função final:
 ```javascript
 const helloWorld = function() {
   return 'Hello, World!'
@@ -47,4 +46,4 @@ const helloWorld = function() {
 module.exports = helloWorld
 ```
 
-For the most part we've set up these tests in such a way that you only have to write the code being tested.  You should not have to worry about importing or exporting anything at this stage.. so just work around that bit of the code and write what it takes to make them pass!
+Na maioria das vezes, configuramos esses testes de forma que você só precise escrever o código que está sendo testado.  Você não deve se preocupar em importar ou exportar nada neste estágio. Então, apenas contorne essa parte do código e escreva o que for necessário para fazê-los passar!
