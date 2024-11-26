@@ -1,16 +1,16 @@
 # Exercise 04 - removeFromArray
 
-Implement a function that takes an array and some other arguments then removes the other arguments from that array:
+Implemente uma função que receba um array e alguns outros argumentos e depois remova os outros argumentos desse array:
 
 ```javascript
 removeFromArray([1, 2, 3, 4], 3); // should remove 3 and return [1,2,4]
 ```
 
-## Hints
+## Dicas
 
-The first test on this one is fairly easy, but there are a few things to think about (or google) here for the later tests:
+O primeiro teste deste é bastante fácil, mas há algumas coisas em que pensar (ou pesquisar no Google) aqui para os testes posteriores:
 
-- you can manipulate the original array you pass into the function call or create a new array that is returned as the result.
-- how to remove a single element from an array
-- how to deal with multiple optional arguments in a JavaScript function
-- For more information, check out MDN's page on [function arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) - scroll down to the bit about `Array.from` or the spread operator. You can also check out MDN's page on [rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
+- você pode manipular o array original passado para a chamada de função ou criar um novo array que é retornado como resultado.
+- como remover um único elemento de um array
+- como lidar com vários argumentos opcionais em uma função JavaScript
+- Para mais informações, confira a página do MDN em [function arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) - role para baixo até a parte sobre `Array.from` ou o operador de spread. Você também pode conferir a página do MDN em [rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
