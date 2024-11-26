@@ -1,29 +1,29 @@
 # Exercise 02 - repeatString
 
-Write a function that simply repeats the string a given number of times:
+Escreva uma função que simplesmente repita a string um determinado número de vezes:
 
 ```javascript
 repeatString('hey', 3) // returns 'heyheyhey'
 ```
 
-This function will take two arguments, `string` and `num`.
+Esta função terá dois argumentos, `string` e `num`.
 
-Use loops to implement `repeatString` rather than using the builtin `String.prototype.repeat` which has the same behaviour.
+Use loops para implementar `repeatString` em vez de usar o embutido `String.prototype.repeat` que tem o mesmo comportamento.
 
-*Note:* The exercises after this one will not have arguments provided as this one does - you will need to provide them yourself from now on. So read each exercise's README carefully to see what kinds of arguments will be expected.
+*Nota:* Os exercícios posteriores a este não terão argumentos fornecidos como este - você mesmo precisará fornecê-los a partir de agora. Portanto, leia atentamente o README de cada exercício para ver que tipos de argumentos serão esperados.
 
-You will notice in this exercise that there are multiple tests (see in file `repeatString.spec.js`). Only the first test is currently enabled. So after making sure that this first one passes, enable the others one by one by deleting the `.skip` from the `test.skip()` function.
+Você notará neste exercício que existem vários testes (veja no arquivo `repeatString.spec.js`). Apenas o primeiro teste está habilitado no momento. Então, depois de se certificar de que este primeiro foi aprovado, habilite os outros um por um, excluindo o `.skip` da função `test.skip()`.
 
 
-## Hints
+## Dicas
 
-- Take note of the above function call- how exactly is it being called?
+- Observe a chamada de função acima - como exatamente ela está sendo chamada?
 
-- Create a variable to hold the string you're going to return, create a loop that repeats the given number of times and add the given string to the result on each loop.
+- Crie uma variável para armazenar a string que você retornará, crie um loop que se repete o número determinado de vezes e adicione a string fornecida ao resultado em cada loop.
 
-- If running `npm test repeatString.spec.js` returns results similar to the below, make sure you have enabled the rest of the tests, as described in the instructions above.
+- Se estiver executando `npm test repeatString.spec.js` returns resultados semelhantes aos abaixo, certifique-se de ter habilitado o restante dos testes, conforme descrito nas instruções acima.
 
 ```
-Test Suites: 1 passed, 1 total
-Tests:       6 skipped, 1 passed, 7 total
+Conjuntos de testes: 1 aprovado, 1 no total
+Testes: 6 ignorados, 1 aprovado, 7 no total
 ```
