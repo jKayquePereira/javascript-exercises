@@ -21,18 +21,18 @@ const sum = function(...numSum) {
 };
 
 const multiply = function(...numMult) {
-    if (numMult.length === 1 && Array.isArray(numMult[0])) {
-      numMult = numMult[0];
-    }
+  if (numMult.length === 1 && Array.isArray(numMult[0])) {
+    numMult = numMult[0];
+  }
 
-    let MultAll = 1;
+  let multAll = 1
 
-    for (let i = 0; i < numMult.length; i++) {
-      MultAll *= numMult[i];
-    }
+  for (i = 0; i < numMult.length; i++) {
+    multAll *= numMult[i]
+  }
 
-    return MultAll;
-  };
+  return Number(multAll)
+};
 
 
 const power = function(numPower1, numPower2) {
