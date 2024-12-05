@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9fa201d-b84b-42c6-bca6-45051ac9266c" name="Alterações" comment="">
-      <change beforePath="$PROJECT_DIR$/01_helloWorld/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_helloWorld/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_helloWorld/helloWorld.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_helloWorld/helloWorld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_repeatString/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/02_repeatString/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_repeatString/repeatString.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_repeatString/repeatString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_repeatString/repeatString.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_repeatString/repeatString.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_calculator/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_calculator/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_calculator/calculator.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_calculator/calculator.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +17,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pP6RpYA29U7VBvTrKYOesmp9Ci" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +28,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Jest.calculator.spec.js.executor": "Run",
+    "Jest.removeFromArray.spec.js.executor": "Run",
+    "Jest.tempConversion.spec.js.executor": "Run",
+    "Node.js.calculator.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -37,8 +39,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/kayqu/repos/javascript-exercises/node_modules/jest",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\RubyMine 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732655359750</updated>
       <workItem from="1732655361653" duration="386000" />
+      <workItem from="1733361759540" duration="2583000" />
     </task>
     <servers />
   </component>
